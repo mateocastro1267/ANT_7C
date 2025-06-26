@@ -127,17 +127,17 @@ To deploy a function:
 
 1. Navigate to your function directory:
 ```bash
-cd functions/[function-name]
+cd functions/[excuse-generator]
 ```
 
 2. Deploy the function:
 ```bash
-supabase functions deploy [function-name]
+supabase functions deploy [excuse-generator]
 ```
 
 The function will be available at:
 ```
-https://[project-ref].supabase.co/functions/v1/[function-name]
+https://[project-ref].supabase.co/functions/v1/[excuse-generator]
 ```
 
 ## Common Issues

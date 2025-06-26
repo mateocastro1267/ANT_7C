@@ -127,8 +127,8 @@ const Home: FC = () => {
       )}
       
       <div style={styles.buttons}>
-        <button onClick={() => fetchExcuse('en')}>Get English Excuse</button>
-        <button onClick={() => fetchExcuse('es')}>Get Spanish Excuse</button>
+        <button onClick={() => fetchExcuse('en')}>Generar frase motivacional absurda en ingles</button>
+        <button onClick={() => fetchExcuse('es')}>Generar frase motivacional absurda en español</button>
       </div>
       {excuse && (
         <div style={styles.display}>
